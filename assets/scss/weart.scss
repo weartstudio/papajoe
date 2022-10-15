@@ -1,0 +1,31 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@700&display=swap";
+
+$ff-text: 'Inter', sans-serif;
+$ff-primary: 'Oswald', sans-serif;
+
+$tablet: 768px;
+
+$fs-small: 14px;
+$fs-h1: 34px;
+$fs-h2: 24px;
+$fs-h3: 20px;
+
+$c-primary: #b80909;
+$c-white: white;
+$c-black: #242424;
+$c-text: #6c757d;
+$c-title: $c-black;
+$c-border: #dee2e6;
+
+$shadow: 0 5px 15px rgb(0 0 0 / 8%);
+$w-full: 1600px;
+
+@mixin clearfix {
+	content: "";
+  clear: both;
+  display: table;
+}
+
+@import 'basics';
+@import 'woo';
+@import 'header_footer';
